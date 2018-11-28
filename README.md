@@ -1,6 +1,6 @@
 # ohtu-EIKU
 
-Ryhmän EIKU miniprojekti Helsingin Yliopiston kurssille "Ohjelmistotuotanto".
+Ryhmän EIKU miniprojekti Helsingin yliopiston kurssille "Ohjelmistotuotanto".
 
 **Jatkuva integraatio (Travis):**
 
