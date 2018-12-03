@@ -53,31 +53,6 @@ public class Stepdefs {
         inputLines.add(s);
     }
 
-    @When("^book is selected$")
-    public void bookIsSelected() {
-        somethingIsSelected("book");
-    }
-
-    @When("^internetcontent is selected$")
-    public void internetcontent_is_selected() throws Throwable {
-        somethingIsSelected("internetcontent");
-    }
-
-    @When("^podcast is selected$")
-    public void podcast_is_selected() throws Throwable {
-        somethingIsSelected("podcast");
-    }
-
-    @When("^view is selected$")
-    public void view_is_selected() throws Throwable {
-        somethingIsSelected("view");
-    }
-
-    @When("^edit is selected$")
-    public void edit_is_selected() throws Throwable {
-        somethingIsSelected("edit");
-    }
-
     @When("^item with id \"([^\"]*)\" is selected$")
     public void item_with_id_is_selected(String id) throws Throwable {
         somethingIsSelected(id);
